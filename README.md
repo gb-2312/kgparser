@@ -4,7 +4,7 @@
 
 ## Software environment requirements
 
-    Golang version >= 1.7.0
+    Golang version >= 1.2.2
 
 ## How to usage?
 
