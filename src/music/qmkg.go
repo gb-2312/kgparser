@@ -97,7 +97,7 @@ func (parser *UgcParser) GetMusic(uid string) {
 	fmt.Println(FINISH_DOWNLOAD_MEDIA_FILES_TEMPLATE)
 }
 
-func (parser *UgcParser) GetPlayerList(uid string) (*list.List) {
+func (parser *UgcParser) GetPlayerList(uid string) *list.List {
 	time := 1
 	ugc_item_list := list.New()
 	for {

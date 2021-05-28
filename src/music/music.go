@@ -94,9 +94,9 @@ const (
 // 定义全局变量
 var (
 	HEARDER_PARAMS = map[string]string{
-		"Accept":          DEFAULT_ACCEPT_STRING,
-		"Accept-Language": DEFAULT_ACCEPT_LANGUAGE,
-		"Host":            KG_HOST,
+		"Accept":                    DEFAULT_ACCEPT_STRING,
+		"Accept-Language":           DEFAULT_ACCEPT_LANGUAGE,
+		"Host":                      KG_HOST,
 		"Upgrade-Insecure-Requests": "1",
 		"Connection":                DEFAULT_CONNECTION_TYPE,
 		"User-Agent":                DEFAULT_USER_AGENT,
@@ -161,7 +161,7 @@ type Parser interface {
 	// 获取播放列表
 	// @param uid 用户的id
 	// @return 播放列表List<`UgcItem`>对象
-	GetPlayerList(uid string) (*list.List)
+	GetPlayerList(uid string) *list.List
 
 	// (protected方法)post请求
 	// post(Call:: HttpClient.func())

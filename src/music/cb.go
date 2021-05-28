@@ -110,7 +110,7 @@ func (parser *CbParser) GetMusic(uid string) {
 	fmt.Println(FINISH_DOWNLOAD_MEDIA_FILES_TEMPLATE)
 }
 
-func (parser *CbParser) GetPlayerList(uid string) (*list.List) {
+func (parser *CbParser) GetPlayerList(uid string) *list.List {
 	cb_item_list := list.New()
 
 	page_number := 0

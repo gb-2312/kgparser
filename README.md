@@ -13,4 +13,3 @@ Open the `Terminal`, switch to directory `kgparser/src/`, and type this:
     go run kgparser.go
 
 If you found something wrong, please contact [Angel's Blog.](http://www.0ee.com/about), that would be very friendly of you, thank you!
-
